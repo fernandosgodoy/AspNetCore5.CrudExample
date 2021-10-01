@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Studies.Core.WebApp", "Studies.Core.WebApp\Studies.Core.WebApp.csproj", "{4E61EF58-0C81-42D3-88DC-FEDBA29DBD53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Studies.Core.Tests", "Studies.Core.Tests\Studies.Core.Tests.csproj", "{1EF44C56-D1BA-4834-83E1-B027EA1814F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{8960A422-659B-4124-B1B4-111BD081AA72}"
+	ProjectSection(SolutionItems) = preProject
+		scripts_banco.sql = scripts_banco.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E61EF58-0C81-42D3-88DC-FEDBA29DBD53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E61EF58-0C81-42D3-88DC-FEDBA29DBD53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E61EF58-0C81-42D3-88DC-FEDBA29DBD53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E61EF58-0C81-42D3-88DC-FEDBA29DBD53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EF44C56-D1BA-4834-83E1-B027EA1814F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EF44C56-D1BA-4834-83E1-B027EA1814F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EF44C56-D1BA-4834-83E1-B027EA1814F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EF44C56-D1BA-4834-83E1-B027EA1814F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {476F0428-73E2-482D-8AB4-9064532749AD}
+	EndGlobalSection
+EndGlobal

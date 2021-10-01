@@ -1,0 +1,45 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Alunos";
+}
+
+<div class="text-center">
+    <h1 class="display-4">
+        Alunos
+    </h1>
+
+    <div class="row">
+        <button class="btn btn-primary">Novo</button>
+    </div>
+
+    <table class="table table-condensed">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var aluno in (IEnumerable<Aluno>)ViewData["alunos"])
+            {
+                <tr>
+                    <td>@aluno.Id</td>
+                    <td>@aluno.Nome</td>
+                    <td>@aluno.Email</td>
+                    <td>
+                        <button class="btn btn-info">
+                            Editar
+                        </button>
+                        <button class="btn btn-danger">
+                            Remover
+                        </button>
+                    </td>
+                </tr>
+            }
+           
+        </tbody>
+    </table>
+</div>
